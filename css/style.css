@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+  }
+  
+  body {
+    background: linear-gradient(135deg, #6a6afc, #7a5af5);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container {
+    width: 900px;
+  }
+  
+  .card {
+    background: #fff;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  }
+  
+  /* HEADER */
+  .header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .header h1 {
+    font-size: 40px;
+    color: #6a6afc;
+  }
+  
+  .header p {
+    color: #666;
+    margin: 5px 0;
+  }
+  
+  .header h2 {
+    font-weight: bold;
+  }
+  
+  /* MAIN GRID */
+  .main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+  
+  /* TIMER */
+  .timer-card {
+    text-align: center;
+  }
+  
+  #timer {
+    font-size: 50px;
+    color: #6a6afc;
+    margin: 15px 0;
+  }
+  
+  .btn-group button {
+    margin: 5px;
+  }
+  
+  /* TASK */
+  .task-input {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .task-input input {
+    flex: 1;
+    padding: 8px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  li {
+    display: flex;
+    justify-content: space-between;
+    margin: 8px 0;
+    align-items: center;
+  }
+  
+  /* LINKS */
+  .links-card {
+    margin-top: 20px;
+  }
+  
+  .link-input {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .link-input input {
+    padding: 8px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+  }
+  
+  #links button {
+    margin: 5px;
+  }
+  
+  /* BUTTON */
+  button {
+    border: none;
+    padding: 8px 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    background: #ddd;
+  }
+  
+  button.primary {
+    background: #6a6afc;
+    color: #fff;
+  }
